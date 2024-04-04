@@ -1,0 +1,51 @@
+{
+  "name": "expoCrash",
+  "iosAppName": "expoCrash",
+  "displayName": "Expo Crash",
+  "enrollVersion": "Staging",
+  "expo": {
+    "name": "expoCrash",
+    "slug": "expo-crash",
+    "jsEngine": "hermes",
+    "owner": "burxxxxurk",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD",
+      "enabled": true,
+      "url": "https://u.expo.dev/d5937f07-xxxx-4acf-b13c-xxxxxxx",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
+    },
+    "android": {
+      "package": "com.expo.crash"
+    },
+    "ios": {
+      "bundleIdentifier": "com.expo.crash"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "burxxxxurk"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d5937f07-c9d9-4acf-b13c-99e030b042de",
+        "build": {
+          "development": {
+            "distribution": "internal",
+            "releaseChannel": "main"
+          },
+          "production": {
+            "distribution": "internal",
+            "releaseChannel": "main"
+          }
+        }
+      }
+    }
+  }
+}
